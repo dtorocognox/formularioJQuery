@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Index</title>
+    <link href="https://fonts.googleapis.com/css?family=Allerta" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.7/css/materialize.min.css">
+    <link rel="stylesheet" href="index.css">
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body>
+    <header>
+        <p id="titulo">Datos Personales</p>
+    </header>
+
+    <div class="container">
+        <table class="highlight" >
+            <thead>
+            <tr>
+                <th data-field="id">Cédula</th>
+                <th data-field="name">Nombre</th>
+                <th data-field="price">Apellido</th>
+                <th data-field="phone">Teléfono</th>
+                <th data-field="position">Cargo</th>
+            </tr>
+            </thead>
+
+            <tbody>
+            <tr>
+                <td>
+                    <div class="input-field col s6">
+                        <input placeholder="Ej: 1234567" id="id" type="text" class="validate">
+                        <label for="id"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field col s6">
+                        <input placeholder="xxxxxx" id="name" type="text" class="validate">
+                        <label for="name"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field col s6">
+                        <input placeholder="xxxxxx" id="last_name" type="text" class="validate">
+                        <label for="last_name"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field col s6">
+                        <input placeholder="Tel ó Cel" id="phone" type="text" class="validate">
+                        <label for="phone"></label>
+                    </div>
+                </td>
+                <td>
+                    <div class="input-field col s6">
+                        <input placeholder="Puesto" id="position" type="text" class="validate">
+                        <label for="position"></label>
+                    </div>
+                </td>
+                <td class="buttons">
+                    <input id="edit" type="submit" value="✎"/>
+                    <input id="delete" type="submit" value="✘"/>
+                    <input id="add" type="submit" value="➕"/>
+                </td>
+            </tr>
+            <label id="fields">
+                <!--New Fields-->
+            </label>
+            </tbody>
+        </table>
+    </div>
+
+
+</body>
+<script   src="https://code.jquery.com/jquery-2.2.4.js"   integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI="   crossorigin="anonymous"></script>
+<script>
+    inicio();
+</script>
+<script>
+    document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] +
+            ':35729/livereload.js?snipver=1"></' + 'script>')
+</script>
+</html>
