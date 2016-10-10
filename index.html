@@ -12,8 +12,9 @@
     <header>
         <p id="titulo">Datos Personales</p>
     </header>
-
+    <input id="add" type="button" value="+"/>
     <div id="container" class="container">
+
         <table class="highlight" >
             <thead>
             <tr>
@@ -26,11 +27,11 @@
             </thead>
 
             <tbody>
-            <tr>
-                <td>
-                    <div class="input-field col s6">
-                        <input placeholder="Ej: 1234567" id="id" type="text" class="validate">
-                        <label for="id"></label>
+                    <tr>
+                        <td>
+                            <div class="input-field col s6">
+                                <input placeholder="Ej: 1234567" id="id0" type="text" class="validate identificacion">
+                                <label for="id0"></label>
                     </div>
                 </td>
                 <td>
@@ -60,7 +61,6 @@
                 <td class="buttons">
                     <input id="edit" type="submit" value="✎"/>
                     <input id="delete" type="submit" value="✘"/>
-                    <input id="add" type="submit" value="➕"/>
                 </td>
             </tr>
             <label id="fields">
@@ -69,6 +69,7 @@
             </tbody>
         </table>
     </div>
+    <input id="save" type="button" value="GUARDAR"/>
 
 
 </body>
