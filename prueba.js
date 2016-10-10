@@ -1,4 +1,5 @@
-var $boxId = new Array();
+var boxId = new Array();
+var i = 0;
 
 
 function inicio() {
@@ -62,6 +63,7 @@ function inicio() {
         $('.identificacion').each(function(index, value ) {
                 var $value = $(value);
                 alert( index + ": " +  $value.val());
+                boxId[i++] = $value.val();
             }
         )
     });

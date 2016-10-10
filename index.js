@@ -1,5 +1,5 @@
-var $boxId = new Array();
-
+var boxId = new Array();
+var i = 0;
 
 function inicio() {
 
@@ -7,27 +7,27 @@ function inicio() {
 var template2 = '<tr>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="Ej: 1234567" id="id" type="text" class="validate identificacion">' +
+                            '<input placeholder="Ej: 1234567" type="text" class="validate identificacion">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="xxxxxx" id="name" type="text" class="validate">' +
+                            '<input placeholder="xxxxxx" type="text" class="validate">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="xxxxxx" id="last_name" type="text" class="validate">' +
+                            '<input placeholder="xxxxxx" type="text" class="validate">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="Tel ó Cel" id="phone" type="text" class="validate">' +
+                            '<input placeholder="Tel ó Cel" type="text" class="validate">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="Puesto" id="position" type="text" class="validate">' +
+                            '<input placeholder="Puesto"  type="text" class="validate">' +
                         '</div>' +
                     '</td>' +
                     '<td class="buttons">' +
@@ -58,9 +58,9 @@ var template2 = '<tr>' +
         $('.identificacion').each(function(index, value ) {
                 var $value = $(value);
                 alert( index + ": " +  $value.val());
+                boxId[index] = $value.val();
             }
-        )
-    });
+        )});
 
 
 

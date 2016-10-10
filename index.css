@@ -5,6 +5,8 @@
 #titulo{
     text-align: center;
     font-size: 50px;
+    background-color: #ff9800;
+    margin-top: 0;
 }
 
 #add{
@@ -16,4 +18,8 @@
     width: 130px;
 }
 
+#save{
+    float: right;
+    margin: 30px;
+}
 
