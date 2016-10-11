@@ -1,5 +1,9 @@
 var boxId = new Array();
-var i = 0;
+var boxName = new Array();
+var boxLastName = new Array();
+var boxPhone = new Array();
+var boxPosition = new Array();
+
 
 function inicio() {
 
@@ -12,27 +16,27 @@ var template2 = '<tr>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="xxxxxx" type="text" class="validate">' +
+                            '<input placeholder="xxxxxx" type="text" class="validate nombre">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="xxxxxx" type="text" class="validate">' +
+                            '<input placeholder="xxxxxx" type="text" class="validate apellido">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="Tel ó Cel" type="text" class="validate">' +
+                            '<input placeholder="Tel ó Cel" type="text" class="validate telefono">' +
                         '</div>' +
                     '</td>' +
                     '<td>' +
                         '<div class="input-field col s6">' +
-                            '<input placeholder="Puesto"  type="text" class="validate">' +
+                            '<input placeholder="Puesto"  type="text" class="validate puesto">' +
                         '</div>' +
                     '</td>' +
                     '<td class="buttons">' +
                         '<input id="edit" type="submit" value="✎"/>' +
-                        '<input id="delete" type="submit" value="✘"/>' +
+                        '<input id="delete" type="submit" value="✘" onclick="$(this).parent().parent().remove()" />' +
                     '</td>' +
                 '</tr>';
 
@@ -41,7 +45,6 @@ var template2 = '<tr>' +
 
 
     var $add = $('#add');
-
     var $fields = $('#container');
 
 
@@ -51,19 +54,37 @@ var template2 = '<tr>' +
     });
 
 
+
     var $save = $('#save');
 
 
     $save.on("click", function(event){
         $('.identificacion').each(function(index, value ) {
                 var $value = $(value);
-                alert( index + ": " +  $value.val());
                 boxId[index] = $value.val();
             }
-        )});
-
-
-
+        )
+        $('.nombre').each(function(index, value ) {
+                var $value = $(value);
+                boxName[index] = $value.val();
+            }
+        )
+        $('.apellido').each(function(index, value ) {
+                var $value = $(value);
+                boxName[index] = $value.val();
+            }
+        )
+        $('.telefono').each(function(index, value ) {
+                var $value = $(value);
+                boxName[index] = $value.val();
+            }
+        )
+        $('.puesto').each(function(index, value ) {
+                var $value = $(value);
+                boxName[index] = $value.val();
+            }
+        )
+    });
 
 
 
