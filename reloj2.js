@@ -1,13 +1,12 @@
 var $all = $('body').css("background","grey");
 
 var $circle1 = $('<div>').css({
-                            "background-color": "purple",
-                            "height": "400px",
-                            "width": "400px",
-                            "border-radius": "100%",
-                            "position": "relative"
-                            });
-
+    "background-color": "purple",
+    "height": "400px",
+    "width": "400px",
+    "border-radius": "100%",
+    "position": "relative"
+});
 
 var $circle2 = $circle1.clone();
 $circle2.css({
@@ -34,10 +33,10 @@ $circle4.css("background" , "transparent");
 var $circle5 = $circle4.clone();
 
 
+
 var width = ["20px", "10px", "5px"];
 var left = ["190px", "195px"];
 var transform = 0;
-
 var X = 0;
 
 
@@ -69,13 +68,13 @@ var $hand1 = $('<div>').css({
         'top' : '15%'
 });
 
-var $hand2 = $hand1.clone()
+var $hand2 = $hand1.clone();
 $hand2.css({
     "height" : "120px",
     "width" : "16px"
 });
 
-var $hand3 = $hand1.clone()
+var $hand3 = $hand1.clone();
 $hand3.css({
     "height" : "160px",
     "width" : "12px"
@@ -90,15 +89,24 @@ $circle1.append($circle4);
 $circle1.append($circle5);
 $all.append($circle1);
 
-var S = 186;
+
+var time = new Date();
+var hour = time.getHours();
+console.log(hour);
+var minutes = time.getMinutes();
+var seconds = time.getSeconds();
+
+
+var S = 186 + (seconds * 6);
 var sec = 0;
-var M = 186;
-var T  = 180;
+var M = 186 + (minutes * 6);
+var H = 180 + (hour * 30);
 
+$circle3.css("transform" , 'rotate('+ M +'deg)');
+$circle4.css("transform" , 'rotate('+ H +'deg)');
+$circle5.css("transform" , 'rotate('+ S +'deg)');
 
-
-var timeH = setInterval(function(){
-
+setInterval(function(){
     $circle5.css("transform" , 'rotate('+ S +'deg)');
     S+=6;
     sec++;
@@ -106,8 +114,9 @@ var timeH = setInterval(function(){
         $circle3.css("transform" , 'rotate('+ M +'deg)');
         M+=6;
         sec=0;
-        $circle4.css("transform" , 'rotate('+ T +'deg)');
-        T+=0.5;
+        $circle4.css("transform" , 'rotate('+ H +'deg)');
+        H+=0.5;
     }
-
 }, 1000);
+
+
