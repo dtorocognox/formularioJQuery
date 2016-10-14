@@ -62,7 +62,7 @@ for(i=0; i<=5; i++){
 var $hand1 = $('<div>').css({
         'background-color': 'black',
         'height': '160px' ,
-        'width': '20px' ,
+        'width': '16px' ,
         'position': 'absolute',
         'left': '25%',
         'top' : '15%'
@@ -71,7 +71,7 @@ var $hand1 = $('<div>').css({
 var $hand2 = $hand1.clone();
 $hand2.css({
     "height" : "120px",
-    "width" : "16px"
+    "width" : "20px"
 });
 
 var $hand3 = $hand1.clone();
@@ -80,6 +80,7 @@ $hand3.css({
     "width" : "12px"
 });
 
+//Agrega las manecillas
 $circle5.append($hand3);
 $circle4.append($hand2);
 $circle3.append($hand1);
@@ -89,16 +90,15 @@ $circle1.append($circle4);
 $circle1.append($circle5);
 $all.append($circle1);
 
-
+//obtiene la hora actual
 var time = new Date();
 var hour = time.getHours();
 console.log(hour);
 var minutes = time.getMinutes();
 var seconds = time.getSeconds();
 
-
+//Ubica las manecillas en la hora actual
 var S = 186 + (seconds * 6);
-var sec = 0;
 var M = 186 + (minutes * 6);
 var H = 180 + (hour * 30);
 
@@ -106,6 +106,7 @@ $circle3.css("transform" , 'rotate('+ M +'deg)');
 $circle4.css("transform" , 'rotate('+ H +'deg)');
 $circle5.css("transform" , 'rotate('+ S +'deg)');
 
+//Mueve las manecillas
 setInterval(function(){
     $circle5.css("transform" , 'rotate('+ S +'deg)');
     S+=6;

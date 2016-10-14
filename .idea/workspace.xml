@@ -41,8 +41,8 @@
       <file leaf-file-name="reloj2.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/reloj2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="141">
-              <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+            <state relative-caret-position="391">
+              <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -234,12 +234,12 @@
       <workItem from="1476209079205" duration="6187000" />
       <workItem from="1476274256268" duration="14676000" />
       <workItem from="1476359521413" duration="17942000" />
-      <workItem from="1476445798303" duration="17122000" />
+      <workItem from="1476445798303" duration="17987000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="103918000" />
+    <option name="totallyTimeSpent" value="104783000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -521,8 +521,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/reloj2.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="141">
-          <caret line="99" column="26" selection-start-line="99" selection-start-column="26" selection-end-line="99" selection-end-column="26" />
+        <state relative-caret-position="391">
+          <caret line="73" column="17" selection-start-line="73" selection-start-column="17" selection-end-line="73" selection-end-column="17" />
           <folding />
         </state>
       </provider>
