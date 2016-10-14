@@ -1,9 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/reloj2.js" line="58" mnemonic="8" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="54ecd5c4-d909-49f4-9952-0e755a075933" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reloj.js" afterPath="$PROJECT_DIR$/reloj.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reloj2.css" afterPath="$PROJECT_DIR$/reloj2.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reloj2.html" afterPath="$PROJECT_DIR$/reloj2.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/reloj2.js" afterPath="$PROJECT_DIR$/reloj2.js" />
     </list>
     <ignored path="formulariosJQuey.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -26,33 +32,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="prueba3.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/prueba3.js">
+      <file leaf-file-name="reloj2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reloj2.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-241">
-              <caret line="26" column="50" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="50" />
-              <folding>
-                <marker date="1476290105591" expanded="true" signature="2056:2066" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reloj.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/reloj.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="reloj.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/reloj.js">
+      <file leaf-file-name="reloj2.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reloj2.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+            <state relative-caret-position="0">
+              <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
               <folding />
             </state>
           </provider>
@@ -90,7 +84,10 @@
         <option value="$PROJECT_DIR$/prueba3.html" />
         <option value="$PROJECT_DIR$/prueba3.js" />
         <option value="$PROJECT_DIR$/reloj.html" />
+        <option value="$PROJECT_DIR$/reloj2.css" />
         <option value="$PROJECT_DIR$/reloj.js" />
+        <option value="$PROJECT_DIR$/reloj2.html" />
+        <option value="$PROJECT_DIR$/reloj2.js" />
       </list>
     </option>
   </component>
@@ -240,12 +237,13 @@
       <workItem from="1476191004403" duration="4290000" />
       <workItem from="1476209079205" duration="6187000" />
       <workItem from="1476274256268" duration="14676000" />
-      <workItem from="1476359521413" duration="17343000" />
+      <workItem from="1476359521413" duration="17942000" />
+      <workItem from="1476445798303" duration="14778000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86197000" />
+    <option name="totallyTimeSpent" value="101574000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -300,10 +298,30 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/prueba3.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1476290105591" expanded="true" signature="2056:2066" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reloj.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/prueba3.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1666">
@@ -446,7 +464,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
           <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -466,7 +483,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/prueba3.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-241">
+        <state relative-caret-position="17">
           <caret line="26" column="50" selection-start-line="26" selection-start-column="44" selection-end-line="26" selection-end-column="50" />
           <folding>
             <marker date="1476290105591" expanded="true" signature="2056:2066" ph="..." />
@@ -474,18 +491,42 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reloj.html">
+    <entry file="file://$PROJECT_DIR$/reloj.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="53" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/reloj.js">
+    <entry file="file://$PROJECT_DIR$/reloj.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        <state relative-caret-position="51">
+          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reloj2.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="214">
+          <caret line="94" column="14" selection-start-line="89" selection-start-column="4" selection-end-line="94" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reloj2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reloj2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="43" selection-start-line="0" selection-start-column="43" selection-end-line="0" selection-end-column="43" />
           <folding />
         </state>
       </provider>
