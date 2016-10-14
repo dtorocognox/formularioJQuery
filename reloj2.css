@@ -1,0 +1,75 @@
+body{
+	margin: 0;
+}
+
+#circle1 {
+	background-color: purple;
+	height: 400px;
+	width: 400px;
+	border-radius: 100%;
+}
+
+#circle2 {
+	background-color: purple;
+	height: 340px;
+	width: 340px;
+	border-radius: 100%;
+	position: absolute;
+	left: 25px;
+	top: 30px; 
+}
+
+
+#lineV{
+	background-color: black;
+	height: 400px;
+	width: 20px;
+	position: absolute;
+	left: 24%;
+
+}
+
+
+#lineH{
+	background-color: black;
+	height: 20px;
+	width: 400px;
+	position: absolute;
+	top: 30%;
+}
+
+#lineD1{
+	background-color: black;
+	height: 400px;
+	width: 10px;
+	position: absolute;
+	left: 195px;
+	transform: rotate(30deg);
+}
+
+#lineD2{
+	background-color: black;
+	height: 400px;
+	width: 10px;
+	position: absolute;
+	left: 195px;
+	transform: rotate(60deg);
+}
+
+#lineD3{
+	background-color: black;
+	height: 400px;
+	width: 10px;
+	position: absolute;
+	left: 195px;
+	transform: rotate(120deg);
+}
+
+#lineD4{
+	background-color: black;
+	height: 400px;
+	width: 10px;
+	position: absolute;
+	left: 195px;
+	transform: rotate(150deg);
+}
