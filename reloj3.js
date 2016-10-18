@@ -4,22 +4,32 @@ $body = $('body').css({"background" : "gray",
 						"margin" : "0"});
 
 
-var $container = $('<div>').css({"background" : "white",
+var $circle[0] = $('<div>').css({"background" : "white",
 							"width" : "400px",
 							"height" : "400px",
 							"position" : "relative"});
 
 var percentage = 100;
 var colors = ["black", "orange"];
+var position = ["static", "absolute"];
+var select = 0;
 
-for(i=0; i<=4; i++){
-	$circle[1] = $container.clone().css({"border-radius" : "50%",
-				"background" : "orange",
+for(i=1; i<=3; i++){
+	$circle[i] = $circle[0].clone().css({"border-radius" : "50%",
+				"background" : colors[select],
 				"width" : percentage + "%",
 				"height" : percentage + "%",
-				"position" : "absolute"});;
+				"position" : position[select],
+				"margin" : (select*10) + "px"});
+	if(i == 0){
+		select++;
+	}
+	percentage -= 5;
 }
 
 
-$container.append($circle[1]);
-$body.append($container);
+$circle[2].append($circle[3]);
+$circle[1].append($circle[2]);
+$circle[0].append($circle[0]);
+
+$body.append($circle[0]);

@@ -186,3 +186,6 @@ $div.find('p').mouseenter(function(){
      $(this).fadeIn(100);
     alert("no me pisó");
 });
+
+
+//14. Utiliza los métodos focus() y blur() para cambiar el color de dos cuadros de texto cuando posicionamos el foco y cuando lo retiramos.
