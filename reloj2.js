@@ -1,6 +1,7 @@
 var $all = $('body').css("background","grey");
 
 //Circulo Principal
+
 var $circle1 = $('<div>').css({
     "background-color": "purple",
     "height": "400px",
@@ -31,12 +32,11 @@ var $circle3 =  $('<div>').css({
     "left" : "46%",
     'transform' : 'rotate(180deg)'
 });
-
 var $circle4 = $circle3.clone();
 var $circle5 = $circle4.clone();
 
 
-
+// Variables predeterminadas tamaño de marcadores 
 var width = ["20px", "10px"];
 var left = ["190px", "195px"];
 var transform = 0;
