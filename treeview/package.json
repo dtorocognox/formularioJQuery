@@ -1,54 +1,50 @@
 {
-  "_0":
+  "Procesos":
   [
-    {"_00":
+    {"Requisitos":
     [
-      {"0":"Requisitos"},
-      {"1":"Diseña la arquitectura"},
-      {"2":"Analiza la reutilización"},
-      {"3":"Lee los requisitos"},
-      {"4":"Realiza una contextualización funcional"},
-      {"5":"Realiza una contextualización técnica"},
-      {"6":"Documenta el diseño"},
-      {"7":"Verificar montaje diseño"}
+      {"Diseña la arquitectura":""},
+      {"Analiza la reutilización":""},
+      {"Lee los requisitos":""},
+      {"Realiza una contextualización funcional":""},
+      {"Realiza una contextualización técnica":""},
+      {"Documenta el diseño":""},
+      {"Verificar montaje diseño":""}
     ]
     },
-    {"_01":
+    {"Arquitectura":
       [
-        {"0":"Arquitectura"},
-        {"1":"Diseña la arquitectura"},
-        {"2":"Analiza la reutilización"},
-        {"3":"Lee los requisitos"},
-        {"4":"Realiza una contextualización funcional"},
-        {"5":"Realiza una contextualización técnica"},
-        {"6":"Documenta el diseño"},
-        {"7":"Verificar montaje diseño"}
+        {"Diseña la arquitectura":""},
+        {"Analiza la reutilización":""},
+        {"Lee los requisitos":""},
+        {"Realiza una contextualización funcional":""},
+        {"Realiza una contextualización técnica":""},
+        {"Documenta el diseño":""},
+        {"Verificar montaje diseño":""}
       ]
     },
-    {"_02":
+    {"Diseño Gráfico":
     [
-      {"0":"Diseño Gráfico"},
-      {"1":"Revisar solicitudes"},
-      {"2":"Levantar necesidades"},
-      {"3":"Propuesta diseño gráfico"},
-      {"4":"Validar internamente propuesta"},
-      {"5":"Recibir aprobación cliente"},
-      {"6":"Adecuar diseño gráfico para desarrollo"},
-      {"7":"Verificar montaje diseño"}
+      {"Revisar solicitudes":""},
+      {"Levantar necesidades":""},
+      {"Propuesta diseño gráfico":""},
+      {"Validar internamente propuesta":""},
+      {"Recibir aprobación cliente":""},
+      {"Adecuar diseño gráfico para desarrollo":""},
+      {"Verificar montaje diseño":""}
     ]
     },
-    {"_03":
+    {"Desarrollo":
     [
-      {"0":"Desarrollo"},
-      {"1":"Entiende los rrquisitos"},
-      {"2":"Desarrolla los requisitos"},
-      {"3":"Registra el código reutilizable"},
-      {"4":"Realiza pruebas de desarrollo"},
-      {"5":"Revisa el código"},
-      {"6":"Genera el manual de instalación"},
-      {"7":"Ejecuta el manual de instalación"},
-      {"8":"Incia proceso de pruebas"},
-      {"9":"Entrega para pruebas cliente"}
+      {"Entiende los rrquisitos":""},
+      {"Desarrolla los requisitos":""},
+      {"Registra el código reutilizable":""},
+      {"Realiza pruebas de desarrollo":""},
+      {"Revisa el código":""},
+      {"Genera el manual de instalación":""},
+      {"Ejecuta el manual de instalación":""},
+      {"Incia proceso de pruebas":""},
+      {"Entrega para pruebas cliente":""}
     ]
     }
   ]
