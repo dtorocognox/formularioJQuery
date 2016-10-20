@@ -171,21 +171,30 @@
 //13. Utiliza el método hover() para lanzar un mensaje cuando nos posicionamos
 // sobre un párrafo y otro cuando salgamos de él.
 
-var $all = $('body');
-
-var template = "<p>13. Utiliza el método hover() para lanzar un mensaje cuando nos posicionamos sobre un párrafo y otro cuando salgamos de él. </p>";
-
-var $div = $('div');
-
-$div.append(template);
-
-$div.find('p').mouseenter(function(){
-    $(this).fadeOut(100);
-    alert("me pisó");
-}).mouseleave(function(){
-     $(this).fadeIn(100);
-    alert("no me pisó");
-});
+// var $all = $('body');
+//
+// var template = "<p>13. Utiliza el método hover() para lanzar un mensaje cuando nos posicionamos sobre un párrafo y otro cuando salgamos de él. </p>";
+//
+// var $div = $('div');
+//
+// $div.append(template);
+//
+// $div.find('p').mouseenter(function(){
+//     $(this).fadeOut(100);
+//     alert("me pisó");
+// }).mouseleave(function(){
+//      $(this).fadeIn(100);
+//     alert("no me pisó");
+// });
 
 
 //14. Utiliza los métodos focus() y blur() para cambiar el color de dos cuadros de texto cuando posicionamos el foco y cuando lo retiramos.
+
+var $all = $('body');
+
+$all.html('<div id="hola"></div>');
+
+var hola = "#hola";
+$div = ('<div>hola2</div>');
+
+$(hola).append($div);
