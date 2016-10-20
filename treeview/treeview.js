@@ -3,31 +3,20 @@ $body = $('body').css({
 });
 
 var $json = new Array();
-var size =1;
-
-
 
 $.getJSON("package.json", function($data){
 
     $json = $data;
-
     other($json);
 
+    //Obtiene las llaves del json
     function other(JSON){
         $.each(JSON, function (key, value) {
-            size = value.length;
-            $body.append(key);
-            console.log(JSON);
-            JSON = JSON[key][0];
-            console.log(JSON);
-            other(JSON);
-            if(JSON == false){
-                console.log(JSON);
+            if(isNaN(parseInt(key))){
+                $body.append(key + "<br>");
             }
+            var temp = JSON[key];
+            other(temp);
         });
     }
-
-
-
-
 });
