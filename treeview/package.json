@@ -6,7 +6,7 @@
       {"Diseña la arquitectura":""},
       {"Analiza la reutilización":""},
       {"Lee los requisitos":""},
-      {"Realiza una contextualización funcional":""},
+      {"Realiza una contextualización funcional":[{"hola":""}]},
       {"Realiza una contextualización técnica":""},
       {"Documenta el diseño":""},
       {"Verificar montaje diseño":""}
@@ -36,7 +36,7 @@
     },
     {"Desarrollo":
     [
-      {"Entiende los rrquisitos":""},
+      {"Entiende los requisitos":""},
       {"Desarrolla los requisitos":""},
       {"Registra el código reutilizable":""},
       {"Realiza pruebas de desarrollo":""},
